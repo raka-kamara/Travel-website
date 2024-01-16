@@ -587,4 +587,31 @@ align-items: center;
   height: 300px;
 
 }
+
+
+.deal-content{
+  width: 100%;
+  height: auto;
+  background-image: url(../Images/Group\ 39.png);
+  border-radius: 16px;
+  margin: 20px;
+}
+.deal-container, .deal-container1{
+  transform: translateX(0px) translateY(0px);
+  width: 200px;
+  margin: 15px;
+}
+
+.deal-img{
+  display: none;
+}
+
+.deals{
+  max-width: 90%;
+}
+
+.footer{
+  margin-top: 100px;
+  max-width: 100%;
+}
 }

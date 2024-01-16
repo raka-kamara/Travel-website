@@ -82,6 +82,7 @@ height: 52px;
 /* Banner section */
 
 .banner {
+  margin: 0 auto;
   background: linear-gradient(80deg, rgba(19, 19, 24, 0.80)
      0%, rgba(19, 19, 24, 0.00) 100%), 
      url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -283,6 +284,9 @@ padding: 50px;
 transform: translateX(450px) translateY(-450px);
 }
 
+.deal-img{
+}
+
 .deal-container1{
   width: 579px;
 height: 250px;
@@ -421,8 +425,27 @@ padding: 10px;
 }
 
 
+/* Extra style */
+
+.extra{
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.extra-header{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 
+.iframe{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
 
 
 

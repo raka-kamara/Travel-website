@@ -266,6 +266,33 @@ background: rgba(251, 181, 99, 0.05);
 }
 
 
+.footer-content{
+  margin: 100px auto;
+  width: 40%;
+}
+
+.footer{
+  width: 100%;
+  height: 502px;
+  background: rgba(19, 19, 24, 0.05)
+  
+}
+.footer-text{
+  padding-top: 50px;
+  text-align: center;
+}
+.footer-text .left-nav{
+    padding-left: 200px;
+}
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icons{
+  gap: 10px;
+  margin: 30px;
+}
 
 .display {
   display: none;
@@ -333,6 +360,17 @@ background: rgba(251, 181, 99, 0.05);
   margin: 30px auto;
   width: 300px;
  
+}
+.footer-content{
+  margin: 0 auto;
+  width: 300px;
+}
+.footer-text .nav-bar{
+  margin: 0px;
+  padding: 0;
+}
+.footer-text .left-nav{
+  padding-left: 20px;
 }
 
 }

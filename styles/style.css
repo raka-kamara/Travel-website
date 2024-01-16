@@ -268,7 +268,7 @@ main {
 
 /* video content section */
 
-.video-content{
+.video-section{
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
@@ -288,6 +288,7 @@ main {
   width: 400px;
   height: 400px;
   border-radius: 16px;
+  margin-top: 20px;
 }
 
 
@@ -347,6 +348,19 @@ main {
   color: #fff;
   border: none;
 }
+.video-section{
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-text{
+  border: 1px solid #FF5400;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  
+}
+
 .newsletter-input{
   display: flex;
   flex-direction: column;
@@ -500,6 +514,9 @@ padding: 10px;
 .footer-text .left-nav{
   padding-left: 20px;
 }
+
+
+
 .newsletter{
   flex-direction: column;
 }
